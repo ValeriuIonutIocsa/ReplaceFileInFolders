@@ -101,8 +101,9 @@ final class AppStartReplaceFileInFolders {
 				replaceFilesInFolder(folderPath, fileName, filePath);
 
 			} catch (final Exception exc) {
-				System.err.println("ERROR - failed to replace files in folder: " + folderPath);
-				exc.printStackTrace();
+				System.err.println("ERROR - failed to replace files in folder:" +
+						System.lineSeparator() + folderPath +
+						System.lineSeparator() + exc.getClass().getSimpleName() + " " + exc.getMessage());
 			}
 		}
 	}

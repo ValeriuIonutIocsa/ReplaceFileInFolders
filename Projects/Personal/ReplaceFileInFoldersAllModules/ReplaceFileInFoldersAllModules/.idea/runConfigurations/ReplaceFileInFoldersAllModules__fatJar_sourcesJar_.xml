@@ -2,7 +2,7 @@
     <configuration default="false" factoryName="Gradle" folderName="ReplaceFileInFoldersAllModules" name="ReplaceFileInFoldersAllModules [fatJar sourcesJar]" type="GradleRunConfiguration">
         <ExternalSystemSettings>
             <option name="executionName"/>
-            <option name="externalProjectPath" value="$PROJECT_DIR$/../../ReplaceFileInFoldersAllModules/ReplaceFileInFoldersAllModules"/>
+            <option name="externalProjectPath" value="$PROJECT_DIR$/../../../../Projects/Personal/ReplaceFileInFoldersAllModules/ReplaceFileInFoldersAllModules"/>
             <option name="externalSystemIdString" value="GRADLE"/>
             <option name="scriptParameters" value=""/>
             <option name="taskDescriptions">
