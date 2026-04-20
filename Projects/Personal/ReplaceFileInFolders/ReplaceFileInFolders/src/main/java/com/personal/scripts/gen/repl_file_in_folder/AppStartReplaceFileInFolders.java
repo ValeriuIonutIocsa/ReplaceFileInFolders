@@ -117,8 +117,8 @@ final class AppStartReplaceFileInFolders {
 		try (Stream<Path> filePathStream = Files.walk(folderPath)) {
 
 			filePathStream
-					.filter(aFilePath -> Files.isRegularFile(aFilePath) &&
-							fileName.equals(aFilePath.getFileName().toString()) && !filePath.equals(aFilePath))
+					.filter(aFilePath -> Files.isRegularFile(aFilePath) && !filePath.equals(aFilePath) &&
+							fileName.equalsIgnoreCase(aFilePath.getFileName().toString()))
 					.forEach(matchingFilePathList::add);
 		}
 		for (final Path matchingFilePath : matchingFilePathList) {
