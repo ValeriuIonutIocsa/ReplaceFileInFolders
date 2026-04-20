@@ -3,7 +3,9 @@ ext {
     projectVersion = '0.0.1'
     jarFolderPath = 'C:\\IVI\\Apps\\Scripts\\General\\ReplaceFileInFolders'
 
-    subProjectNames = []
+    subProjectNames = [
+            ':test-utils'
+    ]
     compileClassPaths = []
     compileJarFilePaths = []
     testCompileClassPaths = []
